@@ -1,6 +1,6 @@
 {
   "name": "redux-devtools-log-monitor",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "The default tree view monitor for Redux DevTools",
   "main": "lib/index.js",
   "files": [
@@ -13,8 +13,7 @@
     "lint": "eslint src test",
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive",
     "test:watch": "NODE_ENV=test mocha --compilers js:babel-core/register --recursive --watch",
-    "prepublish": "npm run lint && npm run test && npm run clean && npm run build",
-    "postinstall": "npm run build"
+    "prepublish": "npm run lint && npm run test && npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
